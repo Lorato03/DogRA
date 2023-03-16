@@ -1,8 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: tests.DelFavouritesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.115 s <<< FAILURE! - in tests.DelFavouritesTest
-testThatICanDeleteAFavouriteById  Time elapsed: 2.067 s  <<< ERROR!
-java.net.UnknownHostException: api.thedogapi.com
-	at tests.DelFavouritesTest.testThatICanDeleteAFavouriteById(DelFavouritesTest.java:33)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.646 s <<< FAILURE! - in tests.DelFavouritesTest
+testThatICanDeleteAFavouriteById  Time elapsed: 4.583 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at tests.DelFavouritesTest.testThatICanDeleteAFavouriteById(DelFavouritesTest.java:35)
 

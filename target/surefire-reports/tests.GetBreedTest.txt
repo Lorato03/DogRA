@@ -1,8 +1,5 @@
 -------------------------------------------------------------------------------
 Test set: tests.GetBreedTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in tests.GetBreedTest
-testThatIcanGetaBreedById  Time elapsed: 0 s  <<< ERROR!
-java.net.UnknownHostException: api.thedogapi.com
-	at tests.GetBreedTest.testThatIcanGetaBreedById(GetBreedTest.java:33)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.752 s - in tests.GetBreedTest
+testThatIcanGetaBreedById  Time elapsed: 1.75 s

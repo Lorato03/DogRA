@@ -1,12 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: tests.PostVotesTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in tests.PostVotesTest
-testThatIcanAddaUpVote  Time elapsed: 0.016 s  <<< ERROR!
-java.net.UnknownHostException: api.thedogapi.com
-	at tests.PostVotesTest.testThatIcanAddaUpVote(PostVotesTest.java:40)
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.628 s <<< FAILURE! - in tests.PostVotesTest
+testThatIcanAddaUpVote  Time elapsed: 0.791 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <405>.
 
-testThatIcanAddaDownVote  Time elapsed: 0 s  <<< ERROR!
-java.net.UnknownHostException: api.thedogapi.com
-	at tests.PostVotesTest.testThatIcanAddaDownVote(PostVotesTest.java:53)
+	at tests.PostVotesTest.testThatIcanAddaUpVote(PostVotesTest.java:42)
+
+testThatIcanAddaDownVote  Time elapsed: 0.824 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <405>.
+
+	at tests.PostVotesTest.testThatIcanAddaDownVote(PostVotesTest.java:55)
 

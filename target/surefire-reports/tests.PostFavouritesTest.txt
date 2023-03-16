@@ -1,8 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: tests.PostFavouritesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! - in tests.PostFavouritesTest
-testThatIcanAddaFavourite  Time elapsed: 0 s  <<< ERROR!
-java.net.UnknownHostException: api.thedogapi.com
-	at tests.PostFavouritesTest.testThatIcanAddaFavourite(PostFavouritesTest.java:41)
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.546 s <<< FAILURE! - in tests.PostFavouritesTest
+testThatIcanAddaFavourite  Time elapsed: 0.73 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <405>.
 
+	at tests.PostFavouritesTest.testThatIcanAddaFavourite(PostFavouritesTest.java:47)
+
+testThatIcanAddaFavouriteWithoutSub_id  Time elapsed: 0.815 s

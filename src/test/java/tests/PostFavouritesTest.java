@@ -17,6 +17,7 @@ import static io.restassured.RestAssured.given;
 public class PostFavouritesTest {
     RequestSpecification reqSpec = null;
     JSONObject obj = null;
+    JSONObject obj2 = null;
     ResponseSpecification success = null;
 
     @BeforeEach
@@ -28,6 +29,9 @@ public class PostFavouritesTest {
         obj = new JSONObject();
         obj.put("image_id", "9ccXTANkbb");
         obj.put("sub_id", "my-user1236");
+
+        obj2 = new JSONObject();
+        obj2.put("image_id", "8ccXTANkbb");
 
     }
 
@@ -44,5 +48,19 @@ public class PostFavouritesTest {
                 .spec(success);
 
     }
+    @Test
+    @Story("POST Request")
+    @Severity(SeverityLevel.NORMAL)
+    public void testThatIcanAddaFavouriteWithoutSub_id(){
+        given().when()
+                .spec(reqSpec)
+                .body(obj2.toJSONString())
+                .post(Constants.URL)
+                .then()
+                .assertThat().statusCode(405)
+                .spec(Helpers.Success());
+
+    }
+
 }
 

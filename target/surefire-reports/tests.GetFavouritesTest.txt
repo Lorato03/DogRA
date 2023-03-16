@@ -1,8 +1,5 @@
 -------------------------------------------------------------------------------
 Test set: tests.GetFavouritesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in tests.GetFavouritesTest
-testThatIcanGetaFavouriteById  Time elapsed: 0.015 s  <<< ERROR!
-java.net.UnknownHostException: api.thedogapi.com
-	at tests.GetFavouritesTest.testThatIcanGetaFavouriteById(GetFavouritesTest.java:33)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.969 s - in tests.GetFavouritesTest
+testThatIcanGetaFavouriteById  Time elapsed: 0.969 s

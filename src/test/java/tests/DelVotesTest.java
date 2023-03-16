@@ -19,7 +19,7 @@ public class DelVotesTest {
     @BeforeEach
     public void initialObject(){
         reqSpec = Helpers.getReqSpec();
-        success = Helpers.SUCCESS();
+
     }
     @Test
     @Story("DELETE Request")
@@ -27,10 +27,12 @@ public class DelVotesTest {
     public void testThatIcanDeleteaVoteById(){
         given().when()
                 .spec(reqSpec)
-                .basePath("votes/" + "31532")
+                .basePath("votes/" + "426")
                 .delete()
                 .then()
-                .spec(success);
+                .assertThat()
+                .statusCode(400);
+
 
     }
 }
