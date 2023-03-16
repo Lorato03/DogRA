@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.DelFavouritesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.115 s <<< FAILURE! - in tests.DelFavouritesTest
+testThatICanDeleteAFavouriteById  Time elapsed: 2.067 s  <<< ERROR!
+java.net.UnknownHostException: api.thedogapi.com
+	at tests.DelFavouritesTest.testThatICanDeleteAFavouriteById(DelFavouritesTest.java:33)
+

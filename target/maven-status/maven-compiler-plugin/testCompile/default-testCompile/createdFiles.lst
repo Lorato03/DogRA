@@ -1,0 +1,12 @@
+Utils\Constants.class
+tests\PostBreedTest.class
+tests\PostVotesTest.class
+tests\GetBreedTest.class
+tests\DelFavouritesTest.class
+tests\GetCategoryTest.class
+Utils\Helpers.class
+tests\PostFavouritesTest.class
+tests\GetVotesTest.class
+tests\PostCategoryTest.class
+tests\DelVotesTest.class
+tests\GetFavouritesTest.class

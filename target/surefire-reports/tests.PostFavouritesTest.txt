@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.PostFavouritesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! - in tests.PostFavouritesTest
+testThatIcanAddaFavourite  Time elapsed: 0 s  <<< ERROR!
+java.net.UnknownHostException: api.thedogapi.com
+	at tests.PostFavouritesTest.testThatIcanAddaFavourite(PostFavouritesTest.java:41)
+

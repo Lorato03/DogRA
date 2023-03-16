@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.PostBreedTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.094 s <<< FAILURE! - in tests.PostBreedTest
+testThatIcanAddaCategory  Time elapsed: 0.079 s  <<< ERROR!
+java.net.UnknownHostException: api.thedogapi.com
+	at tests.PostBreedTest.testThatIcanAddaCategory(PostBreedTest.java:41)
+

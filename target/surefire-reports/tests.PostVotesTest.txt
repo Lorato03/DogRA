@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: tests.PostVotesTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in tests.PostVotesTest
+testThatIcanAddaUpVote  Time elapsed: 0.016 s  <<< ERROR!
+java.net.UnknownHostException: api.thedogapi.com
+	at tests.PostVotesTest.testThatIcanAddaUpVote(PostVotesTest.java:40)
+
+testThatIcanAddaDownVote  Time elapsed: 0 s  <<< ERROR!
+java.net.UnknownHostException: api.thedogapi.com
+	at tests.PostVotesTest.testThatIcanAddaDownVote(PostVotesTest.java:53)
+

@@ -1,0 +1,1 @@
+{"uuid":"c941b1a4-3edb-415d-b812-d13848353054","name":"testThatIcanDeleteaVoteById()","children":["cec957a9-11cb-46d2-a929-cb9e56e9da48"],"befores":[{"name":"initialObject","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1678958838284,"stop":1678958838284}],"afters":[],"start":1678958838284,"stop":1678958839234}
